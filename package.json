@@ -1,0 +1,29 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "trabajar con asincronismo JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js",
+    "promise": "node src/promise/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/israellp24/async_JS.git"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "Israel LP",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/israellp24/async_JS/issues"
+  },
+  "homepage": "https://github.com/israellp24/async_JS#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
